@@ -1,0 +1,11 @@
+WithState View
+flow together
+  Horizontal
+  backgroundColor #323232
+  height 60
+  onClick <
+  when <isBigger
+  height 200
+    Text
+    color white
+    text WithState

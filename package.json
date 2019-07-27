@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "react-scripts start",
+    "dev": "BROWSER=none react-scripts start",
     "views": "views-morph src --watch --as react-dom",
     "prebuild": "views-morph src --as react-dom"
   },
