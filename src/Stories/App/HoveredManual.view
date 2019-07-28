@@ -1,0 +1,14 @@
+HoveredManual View
+flow together
+  Vertical
+  backgroundColor #323232
+  onMouseEnter <
+  onMouseLeave <
+  height 50
+  width 100%
+  when <isHoveredManual
+  backgroundColor #828282
+    Text
+    onWhen <isHoveredManual
+    color white
+    text I'm hovered manual

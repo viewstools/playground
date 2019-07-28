@@ -3,4 +3,14 @@ flow separate
   Text
   fontSize 28
   text Playground
+  Button
+  onClick <setFlow
+  onClickId /App/BottomBarGrowHeight
+  text BottomBarGrowHeight
+  Button
+  marginTop 4
+  onClick <setFlow
+  onClickId /App/HoveredManual
+  text HoveredManual
   BottomBarGrowHeight
+  HoveredManual
