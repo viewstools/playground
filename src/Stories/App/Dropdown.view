@@ -1,0 +1,12 @@
+Dropdown View
+flow together
+  Vertical
+  alignSelf flexStart
+  backgroundColor #f2f2f2
+  ref <dropdownRef
+    Button
+    onClick <toggleIsShowing
+    text Click me I'm a dropdown
+    isSelected <isShowing
+    Content
+    onWhen <isShowing

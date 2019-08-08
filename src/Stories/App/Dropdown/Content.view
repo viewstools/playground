@@ -1,0 +1,16 @@
+Content View
+flow together
+  Vertical
+  opacity 1
+  scale 1
+  transformOriginX top
+  transformOriginY left
+  when <isBefore
+  opacity 0 linear
+  scale 0.75 spring tension 180 friction 10
+    Text
+    text option 1
+    Text
+    text option 2
+    Text
+    text option 3
